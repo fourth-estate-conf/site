@@ -1,0 +1,157 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
+  background-color: transparent;
+  color: black;
+  display: relative;
+  padding: 0;
+  margin: 0; }
+
+.header {
+  color: #000000;
+  font-size: 36pt;
+  font-family: "Bernina Sans Bold"; }
+
+.header.colored-bg {
+  color: #ffffff; }
+
+.subheader {
+  color: #000000;
+  font-size: 18pt;
+  font-family: 'Open Sans Light'; }
+
+.photo-caption {
+  color: #000000;
+  font-size: 18pt;
+  font-family: 'Bernina Sans Bold'; }
+
+.photo-subcaption {
+  color: #000000;
+  font-size: 14pt;
+  font-family: 'Bernina Sans Bold'; }
+
+p {
+  color: #000000;
+  font-size: 14pt;
+  font-family: 'Open Sans Light'; }
+
+.button {
+  border: 3px solid;
+  border-radius: 4px;
+  font-family: 'Bernina Sans Regular';
+  font-size: 25pt;
+  text-align: center;
+  background-color: #ffdd15;
+  border-color: #d0b30b; }
+
+.button.greyscale {
+  background-color: #e6e7e8;
+  border-color: #a6a8ab; }
+
+.button:hover {
+  background-color: #d0b30b;
+  border-color: #a38907; }
+
+.button.greyscale:hover {
+  background-color: #ffdd15;
+  border-color: #d0b30b; }
+
+.button a, .button a:hover, .button a:visited {
+  color: #000000;
+  text-decoration: none; }
+
+a {
+  color: #4a4a4a; }
+
+a:hover {
+  color: #000000; }
+
+.logo {
+  position: relative;
+  /* types */
+  /* sizes */
+  /* colors */ }
+  .logo div {
+    position: absolute;
+    left: 0;
+    top: 0; }
+  .logo div.circle {
+    z-index: 1; }
+  .logo div.building {
+    z-index: 2; }
+  .logo.buzz .building {
+    background-image: url("/img/logos/buzz.png");
+    background-position: 0px 5px; }
+  .logo.flag .building {
+    background-image: url("/img/logos/flag.png");
+    background-position: 0px 5px; }
+  .logo.small {
+    background-size: 60px;
+    min-height: 60px;
+    width: 60px; }
+    .logo.small div {
+      background-size: 60px;
+      min-height: 60px;
+      width: 60px; }
+    .logo.small div.circle {
+      border-radius: 30px; }
+  .logo.medium {
+    background-size: 80px;
+    min-height: 80px;
+    width: 80px; }
+    .logo.medium div {
+      background-size: 80px;
+      min-height: 80px;
+      width: 80px; }
+    .logo.medium div.circle {
+      border-radius: 40px; }
+  .logo.large {
+    background-size: 130px;
+    min-height: 130px;
+    width: 130px; }
+    .logo.large div {
+      background-size: 130px;
+      min-height: 130px;
+      width: 130px; }
+    .logo.large div.circle {
+      border-radius: 65px; }
+  .logo.yellow .circle {
+    background-color: #ffdd15; }
+  .logo.beige .circle {
+    background-color: #dfc9b3; }
+
+body {
+  background-color: #a6a8ab; }
+
+section {
+  border: 1px solid black;
+  min-height: 350px; }
+
+nav {
+  margin: 0 auto;
+  width: 600px; }
+  nav ul {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    min-height: 50px;
+    width: 100%; }
+  nav li {
+    display: inline;
+    flex-grow: 1;
+    text-align: center; }
+  nav a {
+    text-decoration: none;
+    text-transform: uppercase; }
+
+section#home {
+  text-align: center; }
+  section#home .logo {
+    margin: 0 auto; }
+  section#home > div {
+    margin: 0 auto;
+    width: 800px; }
+  section#home h1 {
+    margin-top: 20px; }
+  section#home h2 {
+    margin-top: 20px; }
+
+/*# sourceMappingURL=application.css.map */

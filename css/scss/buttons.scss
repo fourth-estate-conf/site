@@ -1,0 +1,31 @@
+.button {
+  border:3px solid;
+  border-radius: 4px;
+  font-family: 'Bernina Sans Regular';
+  font-size: 25pt;
+  text-align:center;
+
+
+  background-color: $yellow;
+  border-color: $dark-yellow;
+}
+
+.button.greyscale {
+  background-color: $light-gray;
+  border-color: $gray;
+}
+
+.button:hover {
+  background-color: $dark-yellow;
+  border-color: $brown;
+}
+
+.button.greyscale:hover {
+  background-color: $yellow;
+  border-color: $dark-yellow;
+}
+
+.button a, .button a:hover, .button a:visited {
+  color: $black;
+  text-decoration: none;
+}

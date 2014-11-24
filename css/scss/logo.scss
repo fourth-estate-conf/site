@@ -1,0 +1,70 @@
+$buzz-url: url('/img/logos/buzz.png');
+$flag-url: url('/img/logos/flag.png');
+
+$small: 60px;
+$medium: 80px;
+$large: 130px;
+
+@mixin logo($size) {
+  background-size: $size;
+  min-height: $size;
+  width: $size;
+
+  div {
+    background-size: $size;
+    min-height: $size;
+    width: $size;
+  }
+
+  div.circle {
+    border-radius: $size/2;
+  }
+}
+
+
+.logo {
+  position: relative;
+
+  div {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  div.circle {
+    z-index: 1;
+  }
+  div.building {
+    z-index: 2;
+  }
+
+  /* types */
+  &.buzz .building {
+    background-image: $buzz-url;
+    background-position: 0px 5px;
+  }
+
+  &.flag .building {
+    background-image: $flag-url;
+    background-position: 0px 5px;
+  }
+
+  /* sizes */
+  &.small {
+    @include logo($small);
+  }
+  &.medium {
+    @include logo($medium);
+  }
+  &.large {
+    @include logo($large);
+  }
+
+  /* colors */
+  &.yellow .circle {
+    background-color: $yellow;
+  }
+  &.beige .circle {
+    background-color: $beige;
+  }
+}

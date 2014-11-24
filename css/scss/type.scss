@@ -1,0 +1,33 @@
+.header {
+  color: $black;
+  font-size: 36pt;
+  font-family: 'Bernina Sans Bold'
+}
+
+.header.colored-bg {
+  color: $white;
+}
+
+.subheader {
+  color: $black;
+  font-size: 18pt;
+  font-family: 'Open Sans Light';
+}
+
+.photo-caption {
+  color: $black;
+  font-size: 18pt;
+  font-family: 'Bernina Sans Bold';
+}
+
+.photo-subcaption {
+  color: $black;
+  font-size: 14pt;
+  font-family: 'Bernina Sans Bold';
+}
+
+p {
+  color: $black;
+  font-size: 14pt;
+  font-family: 'Open Sans Light';
+}
